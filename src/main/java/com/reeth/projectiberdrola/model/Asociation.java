@@ -7,11 +7,11 @@ import jakarta.persistence.Table;
 
 @Data
 @Entity
-@Table(name = "contrato")
-public class Contract {
+@Table(name = "asocia")
+public class Asociation {
     @Id
-    private Integer id;
-    private Integer cups;
-    private Integer id_tarifa;
-    private boolean homologado;
+    private Integer dni;
+    private Integer cups_contrato;
+    private Integer cups_contador;
+
 }

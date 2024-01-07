@@ -13,7 +13,7 @@
     </a>
 </p>
 
-#### Descripción del proyecto
+## Descripción del proyecto
 
 Aunque el proyecto estaba descrito para ser mas sencillo, creo que era una buena oportunidad para mejorar mis habilidades con Angular y Tailwind, por lo que decidí agregarle un poco mas de complejidad, haciendo una aplicación fullstack con SpringBoot.
 
@@ -21,6 +21,23 @@ Aunque el proyecto estaba descrito para ser mas sencillo, creo que era una buena
 
 <p>
 </p>
+
+## Diseño de la base de datos
+
+#### Esquema E-R de la base de datos
+
+El diseño en el que me he basado para montar toda la arquitectura de la base de datos PostgreSQL es el siguiente:
+<p align="center">
+    <img src="./frontend/src/assets/images/esquema-er.png" width="800"/>
+</p>
+
+#### Diseño físico de la base de datos
+| Estado de la DB           | Link                                          | 
+| ------------------------- | :-------------------------------------------- |
+| `Sin disparadores`        | [Aquí](https://pastebin.com/rpKPt8X3)         |
+| `Disparadores`            | [Aquí](https://pastebin.com/rpKPt8X3)         |
+
+<b><img src="https://cdn-icons-png.flaticon.com/512/6897/6897039.png" width="14"/> Los disparadores no estan acabados por varias dudas planteadas durante el desarrollo!</b>
 
 #### Versiones
 
@@ -45,7 +62,7 @@ Aunque el proyecto estaba descrito para ser mas sencillo, creo que era una buena
 
 #### Commandos necesarios para ejecutar el proyecto
 
-| Comando                   | Qué hace?                                     |
+| Comando                   | Qué hace?                                     | 
 | ------------------------- | :-------------------------------------------- |
 | `npm install`             | Instala las dependencias necesarias           |
 | `npm run start`           | Inicia el servidor                            |
