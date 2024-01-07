@@ -15,7 +15,10 @@
 
 ## Descripción del proyecto
 
-Aunque el proyecto estaba descrito para ser mas sencillo, creo que era una buena oportunidad para mejorar mis habilidades con Angular y Tailwind, por lo que decidí agregarle un poco mas de complejidad, haciendo una aplicación fullstack con SpringBoot.
+Aunque el proyecto estaba descrito para ser más sencillo, creo que era una buena oportunidad para mejorar mis habilidades con Angular y Tailwind, por lo que decidí agregarle un poco mas de complejidad, haciendo una aplicación fullstack con SpringBoot.
+
+La aplicación está diseñada con un sistema de autenticación, un dashboard, un módulo de clientes y otro de contratos, aunque este último no está acabado.
+La arquitectura para comunicar la base de datos con la aplicación se hace mediante una API personalizada, montada desde cero con SpringBoot.
 
 <b><img src="https://cdn-icons-png.flaticon.com/512/6897/6897039.png" width="14"/> El proyecto no esta finalizado al completo!</b>
 
@@ -35,10 +38,11 @@ El diseño en el que me he basado para montar toda la arquitectura de la base de
 | Estado de la DB           | Link                                          | 
 | ------------------------- | :-------------------------------------------- |
 | `Sin disparadores`        | [Aquí](https://pastebin.com/rpKPt8X3)         |
-| `Disparadores`            | [Aquí](https://pastebin.com/rpKPt8X3)         |
+| `Disparadores`            | [Aquí](https://pastebin.com/x0QwMgta)         |
 
 <b><img src="https://cdn-icons-png.flaticon.com/512/6897/6897039.png" width="14"/> Los disparadores no estan acabados por varias dudas planteadas durante el desarrollo!</b>
 
+## Arquitectura de la aplicación
 #### Versiones
 
 <a href="https://angular.io"><img height= "24" src= "https://img.shields.io/badge/Angular 16-DD0031?style=for-the-badge&logo=angular&logoColor=white"></a> <a href="https://tailwindcss.com"><img height= "24" src= "https://img.shields.io/badge/Tailwind 3-0ea5e9?style=for-the-badge&logo=tailwind-css&logoColor=white"></a>
@@ -66,24 +70,6 @@ El diseño en el que me he basado para montar toda la arquitectura de la base de
 | ------------------------- | :-------------------------------------------- |
 | `npm install`             | Instala las dependencias necesarias           |
 | `npm run start`           | Inicia el servidor                            |
-
-
-#### Dependencias
-
-| Package            | What it does?                                                                               | Link                                                   |
-| ------------------ | :------------------------------------------------------------------------------------------ | :----------------------------------------------------- |
-| `angular-svg-icon` | Provides a means to inline SVG files to allow for them to be easily styled by CSS and code. | [Aquí](https://www.npmjs.com/package/angular-svg-icon) |
-| `apexcharts`       | Modern & Interactive Open-source Charts                                                     | [Aquí](https://www.npmjs.com/package/apexcharts)       |
-| `ng-apexcharts`    | Angular wrapper for ApexCharts to build interactive visualizations in Angular.              | [Aquí](https://www.npmjs.com/package/ng-apexcharts)    |
-
-#### Dev Dependencies
-
-| Package                       | What it does?                                                                                            | Link                                                              |
-| ----------------------------- | :------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------- |
-| `prettier`                    | An opinionated code formatter                                                                            | [Aquí](https://www.npmjs.com/package/prettier)                    |
-| `prettier-plugin-tailwindcss` | A Prettier plugin for Tailwind CSS that automatically sorts classes based on our recommended class order | [Aquí](https://www.npmjs.com/package/prettier-plugin-tailwindcss) |
-| `tailwind-scrollbar`          | Tailwind plugin for styling scrollbars.                                                                  | [Aquí](https://www.npmjs.com/package/tailwind-scrollbar)          |
-| `tailwindcss`                 | A utility-first CSS framework for rapidly building custom user interfaces.                               | [Aquí](https://www.npmjs.com/package/tailwindcss)                 |
 
 #### Iconos y Patrones
 
