@@ -31,7 +31,7 @@ La arquitectura para comunicar la base de datos con la aplicación se hace media
 
 El diseño en el que me he basado para montar toda la arquitectura de la base de datos PostgreSQL es el siguiente:
 <p align="center">
-    <img src="./frontend/src/assets/images/esquema-er.png" width="800"/>
+    <img src="./assets/esquema-er.png" width="800"/>
 </p>
 
 #### Diseño físico de la base de datos
