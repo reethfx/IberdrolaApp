@@ -47,12 +47,27 @@ public class ClienteController {
         }
     }
 
+    @GetMapping("/delete/{dni}")
+    public ResponseEntity<Client> getClientToDelete (@PathVariable Integer dni) {
+        try {
+            Client client = service.getClientByDni(dni);
+
+            if (client != null) {
+                return ResponseEntity.ok(client);
+            } else {
+                return ResponseEntity.notFound().build();
+            }
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
+        }
+    }
+
     @PutMapping("/{dni}")
     public void updateClients(@PathVariable("dni") Integer dni, @RequestBody Client client) {
         service.updateClients(dni, client);
     }
 
-    @DeleteMapping("/{dni}/delete")
+    @DeleteMapping("delete/{dni}")
     public void deleteClients(@PathVariable("dni") Integer dni) {
         service.deleteClients(dni);
     }

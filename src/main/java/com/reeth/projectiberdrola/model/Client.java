@@ -16,6 +16,6 @@ public class Client {
     private String direccion;        
     private String email;
     private String telefono;
-    private Boolean cliente_antiguo;
-    // getters and setters...
+    private boolean cliente_antiguo;
+   
 }
